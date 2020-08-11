@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+* {
+
+	margin: 0px;
+	padding: 0;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+
+	background-image: url('assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+
+#logo {
+
+	margin-left: 1100px;
+	margin-top: 40px;
+
+}
+
+#h1 {
+
+	font-weight: bold;
+	margin-left: 140px;
+	margin-top: 0px;
+
+
+
+}
+
+
+#h4 {
+
+	font-weight: bold;
+	margin-left: 140px;
+	margin-top: 0px;
+
+
+
+}
+
+body div table {
+
+
+	width: 80%;
+	height: 350px;
+
+
+}
+
+body div table th {
+
+	/*	display: flexbox; */
+	text-align: center;
+	padding: 0;
+	/*	margin-left: 2px;
+	margin-right: 2px;  */
+
+}
+
+body div table td {
+
+	overflow: hidden;
+	padding: 0px 0;
+	border-collapse: collapse;
+	row-gap: 10px;
+	text-align: center;
+
+
+}
+
+/*
+#head {
+
+	color: black;
+	font-weight: bold;
+	align-items: baseline;
+}
+
+#head1 {
+
+
+	text-align: center;
+}
+ */
+body div table {
+
+	margin-top: 6px;
+	margin-left: 10%;
+	/*	border: 2px solid white;
+	opacity: 0.9;  */
+	border: 1em white;
+
+
+}
+
+body div table tr:nth-child(2) {
+
+	background: white;
+	border-top: solid wheat;
+	border-bottom: solid wheat;
+
+}
+
+body div table tr:nth-child(odd) {
+
+	background: white;
+
+
+}
+
+body div table tr:nth-child(even) {
+
+	background: white;
+	backface-visibility: hidden;
+
+
+}
+
+body div table tr:nth-child(1) {
+
+	background: red;
+	color: white;
+
+}
+
+/*
+#a {
+	/*	display: flex;
+	
+	color: navy;  
+text-decoration: none;
+text-align: start;
+
+}   */
+
+
+
+footer {
+
+	margin-top: 50px;
+	margin-left: 130px;
+
+}
+
+#a {
+
+	text-decoration: none;
+	text-align: left;
+}
+
+
+#bat {
+
+	text-decoration: none;
+
+
+}
+
+
+body div table {
+	border-collapse: collapse;
+	border-style: hidden;
+}
+
+body div table td {
+	border: 1px wheat;
+}
+
+#head {
+
+	text-align: left;
+}
+
+#foot1 {
+
+	text-align: left;
+}
+
+#foot2 {
+
+	text-align: left;
+}
+
+#foot3 {
+
+	text-align: left;
+	margin-left: 150px;
+
+}
+
+body div table a {
+
+	text-align: left;
+	float: left;
+	text-decoration: none;
+}
+
+#main {
+
+	float: left;
+	justify-content: space-evenly;
+}
+
+
+#flex-gap {
+
+	/*margin-inline-end: 0px;
+	margin-left: 10px;
+*/
+	display: inline-flexbox;
+	word-spacing: 5px;
+
+	/*	flex-wrap: no-wrap; */
+
+
+
+}
